@@ -1,0 +1,5 @@
+*begin 60 80
+obstacle 35 10 ;
+robot rob 25 10 ;
+move rob east 10 ;
+halt

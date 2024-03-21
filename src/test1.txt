@@ -1,0 +1,10 @@
+*- simple test program -*
+
+begin 60 80
+robot rob 25 10 ;
+
+*- comment -*
+obstacle 35 10 ;
+skip=10;
+move rob east skip ;
+halt

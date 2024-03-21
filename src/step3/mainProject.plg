@@ -1,0 +1,37 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mainProject - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\friends\LOCALS~1\Temp\RSP18.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/mainProject.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\3dYear\Automaton\step3\mainProject.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\friends\LOCALS~1\Temp\RSP18.tmp" 
+Creating temporary file "C:\DOCUME~1\friends\LOCALS~1\Temp\RSP19.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/mainProject.pdb" /debug /machine:I386 /out:"Debug/mainProject.exe" /pdbtype:sept 
+.\Debug\mainProject.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\friends\LOCALS~1\Temp\RSP19.tmp"
+<h3>Output Window</h3>
+Compiling...
+mainProject.cpp
+e:\3dyear\automaton\step3\token.h(75) : warning C4227: anachronism used : qualifiers on reference are ignored
+e:\3dyear\automaton\step3\tscanner.h(142) : warning C4018: '>=' : signed/unsigned mismatch
+e:\3dyear\automaton\step3\hashtable.h(113) : warning C4715: 'HashTable<Token>::add' : not all control paths return a value
+e:\3dyear\automaton\step3\parsetable.h(184) : warning C4715: 'ParseTab::getEntry' : not all control paths return a value
+e:\3dyear\automaton\step3\stack.h(99) : warning C4715: 'Stack::pop' : not all control paths return a value
+Linking...
+
+
+
+<h3>Results</h3>
+mainProject.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>
